@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F03EA2DC202750D600C9ED29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03EA2DB202750D600C9ED29 /* AppDelegate.swift */; };
+		F03EA2DE202750D600C9ED29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03EA2DD202750D600C9ED29 /* ViewController.swift */; };
+		F03EA2E1202750D600C9ED29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F03EA2DF202750D600C9ED29 /* Main.storyboard */; };
+		F03EA2E3202750D600C9ED29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F03EA2E2202750D600C9ED29 /* Assets.xcassets */; };
+		F03EA2E6202750D600C9ED29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F03EA2E4202750D600C9ED29 /* LaunchScreen.storyboard */; };
+		F03EA2F1202750D600C9ED29 /* PontoFacilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03EA2F0202750D600C9ED29 /* PontoFacilTests.swift */; };
+		F03EA2FC202750D600C9ED29 /* PontoFacilUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03EA2FB202750D600C9ED29 /* PontoFacilUITests.swift */; };
+		F03EA301202750D600C9ED29 /* PontoFacil WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F03EA300202750D600C9ED29 /* PontoFacil WatchKit App.app */; };
+		F03EA307202750D600C9ED29 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F03EA305202750D600C9ED29 /* Interface.storyboard */; };
+		F03EA309202750D600C9ED29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F03EA308202750D600C9ED29 /* Assets.xcassets */; };
+		F03EA310202750D700C9ED29 /* PontoFacil WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F03EA30F202750D700C9ED29 /* PontoFacil WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F03EA317202750D700C9ED29 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03EA316202750D700C9ED29 /* InterfaceController.swift */; };
+		F03EA319202750D700C9ED29 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03EA318202750D700C9ED29 /* ExtensionDelegate.swift */; };
+		F03EA31B202750D700C9ED29 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03EA31A202750D700C9ED29 /* NotificationController.swift */; };
+		F03EA31D202750D700C9ED29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F03EA31C202750D700C9ED29 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F03EA2ED202750D600C9ED29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F03EA2D0202750D600C9ED29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F03EA2D7202750D600C9ED29;
+			remoteInfo = PontoFacil;
+		};
+		F03EA2F8202750D600C9ED29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F03EA2D0202750D600C9ED29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F03EA2D7202750D600C9ED29;
+			remoteInfo = PontoFacil;
+		};
+		F03EA302202750D600C9ED29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F03EA2D0202750D600C9ED29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F03EA2FF202750D600C9ED29;
+			remoteInfo = "PontoFacil WatchKit App";
+		};
+		F03EA311202750D700C9ED29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F03EA2D0202750D600C9ED29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F03EA30E202750D700C9ED29;
+			remoteInfo = "PontoFacil WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F03EA324202750D700C9ED29 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F03EA310202750D700C9ED29 /* PontoFacil WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F03EA328202750D700C9ED29 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F03EA301202750D600C9ED29 /* PontoFacil WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F03EA2D8202750D600C9ED29 /* PontoFacil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PontoFacil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F03EA2DB202750D600C9ED29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F03EA2DD202750D600C9ED29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F03EA2E0202750D600C9ED29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F03EA2E2202750D600C9ED29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F03EA2E5202750D600C9ED29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F03EA2E7202750D600C9ED29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F03EA2EC202750D600C9ED29 /* PontoFacilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PontoFacilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F03EA2F0202750D600C9ED29 /* PontoFacilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PontoFacilTests.swift; sourceTree = "<group>"; };
+		F03EA2F2202750D600C9ED29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F03EA2F7202750D600C9ED29 /* PontoFacilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PontoFacilUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F03EA2FB202750D600C9ED29 /* PontoFacilUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PontoFacilUITests.swift; sourceTree = "<group>"; };
+		F03EA2FD202750D600C9ED29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F03EA300202750D600C9ED29 /* PontoFacil WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PontoFacil WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F03EA306202750D600C9ED29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		F03EA308202750D600C9ED29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F03EA30A202750D600C9ED29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F03EA30F202750D700C9ED29 /* PontoFacil WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PontoFacil WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F03EA315202750D700C9ED29 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		F03EA316202750D700C9ED29 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		F03EA318202750D700C9ED29 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		F03EA31A202750D700C9ED29 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		F03EA31C202750D700C9ED29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F03EA31E202750D700C9ED29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F03EA2D5202750D600C9ED29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F03EA2E9202750D600C9ED29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F03EA2F4202750D600C9ED29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F03EA30C202750D700C9ED29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F03EA2CF202750D600C9ED29 = {
+			isa = PBXGroup;
+			children = (
+				F03EA2DA202750D600C9ED29 /* PontoFacil */,
+				F03EA2EF202750D600C9ED29 /* PontoFacilTests */,
+				F03EA2FA202750D600C9ED29 /* PontoFacilUITests */,
+				F03EA304202750D600C9ED29 /* PontoFacil WatchKit App */,
+				F03EA313202750D700C9ED29 /* PontoFacil WatchKit Extension */,
+				F03EA2D9202750D600C9ED29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F03EA2D9202750D600C9ED29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F03EA2D8202750D600C9ED29 /* PontoFacil.app */,
+				F03EA2EC202750D600C9ED29 /* PontoFacilTests.xctest */,
+				F03EA2F7202750D600C9ED29 /* PontoFacilUITests.xctest */,
+				F03EA300202750D600C9ED29 /* PontoFacil WatchKit App.app */,
+				F03EA30F202750D700C9ED29 /* PontoFacil WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F03EA2DA202750D600C9ED29 /* PontoFacil */ = {
+			isa = PBXGroup;
+			children = (
+				F03EA2DB202750D600C9ED29 /* AppDelegate.swift */,
+				F03EA2DD202750D600C9ED29 /* ViewController.swift */,
+				F03EA2DF202750D600C9ED29 /* Main.storyboard */,
+				F03EA2E2202750D600C9ED29 /* Assets.xcassets */,
+				F03EA2E4202750D600C9ED29 /* LaunchScreen.storyboard */,
+				F03EA2E7202750D600C9ED29 /* Info.plist */,
+			);
+			path = PontoFacil;
+			sourceTree = "<group>";
+		};
+		F03EA2EF202750D600C9ED29 /* PontoFacilTests */ = {
+			isa = PBXGroup;
+			children = (
+				F03EA2F0202750D600C9ED29 /* PontoFacilTests.swift */,
+				F03EA2F2202750D600C9ED29 /* Info.plist */,
+			);
+			path = PontoFacilTests;
+			sourceTree = "<group>";
+		};
+		F03EA2FA202750D600C9ED29 /* PontoFacilUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F03EA2FB202750D600C9ED29 /* PontoFacilUITests.swift */,
+				F03EA2FD202750D600C9ED29 /* Info.plist */,
+			);
+			path = PontoFacilUITests;
+			sourceTree = "<group>";
+		};
+		F03EA304202750D600C9ED29 /* PontoFacil WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				F03EA305202750D600C9ED29 /* Interface.storyboard */,
+				F03EA308202750D600C9ED29 /* Assets.xcassets */,
+				F03EA30A202750D600C9ED29 /* Info.plist */,
+			);
+			path = "PontoFacil WatchKit App";
+			sourceTree = "<group>";
+		};
+		F03EA313202750D700C9ED29 /* PontoFacil WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F03EA316202750D700C9ED29 /* InterfaceController.swift */,
+				F03EA318202750D700C9ED29 /* ExtensionDelegate.swift */,
+				F03EA31A202750D700C9ED29 /* NotificationController.swift */,
+				F03EA31C202750D700C9ED29 /* Assets.xcassets */,
+				F03EA31E202750D700C9ED29 /* Info.plist */,
+				F03EA314202750D700C9ED29 /* Supporting Files */,
+			);
+			path = "PontoFacil WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		F03EA314202750D700C9ED29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F03EA315202750D700C9ED29 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F03EA2D7202750D600C9ED29 /* PontoFacil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F03EA329202750D700C9ED29 /* Build configuration list for PBXNativeTarget "PontoFacil" */;
+			buildPhases = (
+				F03EA2D4202750D600C9ED29 /* Sources */,
+				F03EA2D5202750D600C9ED29 /* Frameworks */,
+				F03EA2D6202750D600C9ED29 /* Resources */,
+				F03EA328202750D700C9ED29 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F03EA303202750D600C9ED29 /* PBXTargetDependency */,
+			);
+			name = PontoFacil;
+			productName = PontoFacil;
+			productReference = F03EA2D8202750D600C9ED29 /* PontoFacil.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F03EA2EB202750D600C9ED29 /* PontoFacilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F03EA32C202750D700C9ED29 /* Build configuration list for PBXNativeTarget "PontoFacilTests" */;
+			buildPhases = (
+				F03EA2E8202750D600C9ED29 /* Sources */,
+				F03EA2E9202750D600C9ED29 /* Frameworks */,
+				F03EA2EA202750D600C9ED29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F03EA2EE202750D600C9ED29 /* PBXTargetDependency */,
+			);
+			name = PontoFacilTests;
+			productName = PontoFacilTests;
+			productReference = F03EA2EC202750D600C9ED29 /* PontoFacilTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F03EA2F6202750D600C9ED29 /* PontoFacilUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F03EA32F202750D700C9ED29 /* Build configuration list for PBXNativeTarget "PontoFacilUITests" */;
+			buildPhases = (
+				F03EA2F3202750D600C9ED29 /* Sources */,
+				F03EA2F4202750D600C9ED29 /* Frameworks */,
+				F03EA2F5202750D600C9ED29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F03EA2F9202750D600C9ED29 /* PBXTargetDependency */,
+			);
+			name = PontoFacilUITests;
+			productName = PontoFacilUITests;
+			productReference = F03EA2F7202750D600C9ED29 /* PontoFacilUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F03EA2FF202750D600C9ED29 /* PontoFacil WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F03EA325202750D700C9ED29 /* Build configuration list for PBXNativeTarget "PontoFacil WatchKit App" */;
+			buildPhases = (
+				F03EA2FE202750D600C9ED29 /* Resources */,
+				F03EA324202750D700C9ED29 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F03EA312202750D700C9ED29 /* PBXTargetDependency */,
+			);
+			name = "PontoFacil WatchKit App";
+			productName = "PontoFacil WatchKit App";
+			productReference = F03EA300202750D600C9ED29 /* PontoFacil WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		F03EA30E202750D700C9ED29 /* PontoFacil WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F03EA321202750D700C9ED29 /* Build configuration list for PBXNativeTarget "PontoFacil WatchKit Extension" */;
+			buildPhases = (
+				F03EA30B202750D700C9ED29 /* Sources */,
+				F03EA30C202750D700C9ED29 /* Frameworks */,
+				F03EA30D202750D700C9ED29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PontoFacil WatchKit Extension";
+			productName = "PontoFacil WatchKit Extension";
+			productReference = F03EA30F202750D700C9ED29 /* PontoFacil WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F03EA2D0202750D600C9ED29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Rodolfo C. Burla de Aguiar";
+				TargetAttributes = {
+					F03EA2D7202750D600C9ED29 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					F03EA2EB202750D600C9ED29 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F03EA2D7202750D600C9ED29;
+					};
+					F03EA2F6202750D600C9ED29 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F03EA2D7202750D600C9ED29;
+					};
+					F03EA2FF202750D600C9ED29 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					F03EA30E202750D700C9ED29 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F03EA2D3202750D600C9ED29 /* Build configuration list for PBXProject "PontoFacil" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F03EA2CF202750D600C9ED29;
+			productRefGroup = F03EA2D9202750D600C9ED29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F03EA2D7202750D600C9ED29 /* PontoFacil */,
+				F03EA2EB202750D600C9ED29 /* PontoFacilTests */,
+				F03EA2F6202750D600C9ED29 /* PontoFacilUITests */,
+				F03EA2FF202750D600C9ED29 /* PontoFacil WatchKit App */,
+				F03EA30E202750D700C9ED29 /* PontoFacil WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F03EA2D6202750D600C9ED29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F03EA2E6202750D600C9ED29 /* LaunchScreen.storyboard in Resources */,
+				F03EA2E3202750D600C9ED29 /* Assets.xcassets in Resources */,
+				F03EA2E1202750D600C9ED29 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F03EA2EA202750D600C9ED29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F03EA2F5202750D600C9ED29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F03EA2FE202750D600C9ED29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F03EA309202750D600C9ED29 /* Assets.xcassets in Resources */,
+				F03EA307202750D600C9ED29 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F03EA30D202750D700C9ED29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F03EA31D202750D700C9ED29 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F03EA2D4202750D600C9ED29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F03EA2DE202750D600C9ED29 /* ViewController.swift in Sources */,
+				F03EA2DC202750D600C9ED29 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F03EA2E8202750D600C9ED29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F03EA2F1202750D600C9ED29 /* PontoFacilTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F03EA2F3202750D600C9ED29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F03EA2FC202750D600C9ED29 /* PontoFacilUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F03EA30B202750D700C9ED29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F03EA31B202750D700C9ED29 /* NotificationController.swift in Sources */,
+				F03EA319202750D700C9ED29 /* ExtensionDelegate.swift in Sources */,
+				F03EA317202750D700C9ED29 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F03EA2EE202750D600C9ED29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F03EA2D7202750D600C9ED29 /* PontoFacil */;
+			targetProxy = F03EA2ED202750D600C9ED29 /* PBXContainerItemProxy */;
+		};
+		F03EA2F9202750D600C9ED29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F03EA2D7202750D600C9ED29 /* PontoFacil */;
+			targetProxy = F03EA2F8202750D600C9ED29 /* PBXContainerItemProxy */;
+		};
+		F03EA303202750D600C9ED29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F03EA2FF202750D600C9ED29 /* PontoFacil WatchKit App */;
+			targetProxy = F03EA302202750D600C9ED29 /* PBXContainerItemProxy */;
+		};
+		F03EA312202750D700C9ED29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F03EA30E202750D700C9ED29 /* PontoFacil WatchKit Extension */;
+			targetProxy = F03EA311202750D700C9ED29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F03EA2DF202750D600C9ED29 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F03EA2E0202750D600C9ED29 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F03EA2E4202750D600C9ED29 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F03EA2E5202750D600C9ED29 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F03EA305202750D600C9ED29 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F03EA306202750D600C9ED29 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F03EA31F202750D700C9ED29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F03EA320202750D700C9ED29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F03EA322202750D700C9ED29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "PontoFacil WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rtrw.PontoFacil.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		F03EA323202750D700C9ED29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				INFOPLIST_FILE = "PontoFacil WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rtrw.PontoFacil.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		F03EA326202750D700C9ED29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = PontoFacil_WatchKit_Extension;
+				INFOPLIST_FILE = "PontoFacil WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rtrw.PontoFacil.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		F03EA327202750D700C9ED29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = PontoFacil_WatchKit_Extension;
+				INFOPLIST_FILE = "PontoFacil WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rtrw.PontoFacil.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		F03EA32A202750D700C9ED29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PontoFacil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rtrw.PontoFacil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F03EA32B202750D700C9ED29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PontoFacil/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rtrw.PontoFacil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F03EA32D202750D700C9ED29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PontoFacilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rtrw.PontoFacilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PontoFacil.app/PontoFacil";
+			};
+			name = Debug;
+		};
+		F03EA32E202750D700C9ED29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PontoFacilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rtrw.PontoFacilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PontoFacil.app/PontoFacil";
+			};
+			name = Release;
+		};
+		F03EA330202750D700C9ED29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PontoFacilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rtrw.PontoFacilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PontoFacil;
+			};
+			name = Debug;
+		};
+		F03EA331202750D700C9ED29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PontoFacilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.rtrw.PontoFacilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PontoFacil;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F03EA2D3202750D600C9ED29 /* Build configuration list for PBXProject "PontoFacil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F03EA31F202750D700C9ED29 /* Debug */,
+				F03EA320202750D700C9ED29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F03EA321202750D700C9ED29 /* Build configuration list for PBXNativeTarget "PontoFacil WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F03EA322202750D700C9ED29 /* Debug */,
+				F03EA323202750D700C9ED29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F03EA325202750D700C9ED29 /* Build configuration list for PBXNativeTarget "PontoFacil WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F03EA326202750D700C9ED29 /* Debug */,
+				F03EA327202750D700C9ED29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F03EA329202750D700C9ED29 /* Build configuration list for PBXNativeTarget "PontoFacil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F03EA32A202750D700C9ED29 /* Debug */,
+				F03EA32B202750D700C9ED29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F03EA32C202750D700C9ED29 /* Build configuration list for PBXNativeTarget "PontoFacilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F03EA32D202750D700C9ED29 /* Debug */,
+				F03EA32E202750D700C9ED29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F03EA32F202750D700C9ED29 /* Build configuration list for PBXNativeTarget "PontoFacilUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F03EA330202750D700C9ED29 /* Debug */,
+				F03EA331202750D700C9ED29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F03EA2D0202750D600C9ED29 /* Project object */;
+}
